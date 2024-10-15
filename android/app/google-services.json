@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217067049320",
+    "project_id": "carenest-32521",
+    "storage_bucket": "carenest-32521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217067049320:android:d15e3f09bdb57abca2c6dd",
+        "android_client_info": {
+          "package_name": "com.carenest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBohmhFGQpkyU0wSQxso_TyAnxwFIi-JXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
