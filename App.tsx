@@ -14,27 +14,28 @@ import AuthNavigator from './src/navigation/AuthNavigator';
 import auth from '@react-native-firebase/auth';
 
 function App(): React.JSX.Element {
-  const [initializing, setInitializing] = useState(true);
-  const [user, setUser] = useState();
-  // Handle user state changes
-  function onAuthStateChanged(user) {
-    setUser(user);
-    if (initializing) {
-      setInitializing(false);
-    }
-  }
-  useEffect(() => {
-    const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
-    return subscriber; // unsubscribe on unmount
-  }, []);
+  // const [initializing, setInitializing] = useState(true);
+  // const [user, setUser] = useState();
+  const user = true;
+  // // Handle user state changes
+  // function onAuthStateChanged(user) {
+  //   setUser(user);
+  //   if (initializing) {
+  //     setInitializing(false);
+  //   }
+  // }
+  // useEffect(() => {
+  //   const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
+  //   return subscriber; // unsubscribe on unmount
+  // }, []);
   const isDarkMode = useColorScheme() === 'dark';
   // const isSignIn = false;
   const backgroundStyle = {
     backgroundColor: '#E6ECEF',
   };
-  if (initializing) {
-    return null;
-  }
+  // if (initializing) {
+  //   return null;
+  // }
   return (
     <NavigationContainer>
       <SafeAreaProvider style={{flex: 1}}>
