@@ -13,10 +13,12 @@ import BellRedIcon from './bell-red.svg';
 import AssistantBlackIcon from './assistant-black.svg';
 import AssistantRedIcon from './assistant-red.svg';
 import PhoneIcon from './phone-icon.svg';
+import MicIcon from './mic.svg';
 import EmailIcon from './mail-icon.svg';
 
 export {
   HomeBlackIcon,
+  MicIcon,
   HomeRedIcon,
   ExerciseBlackIcon,
   ExerciseRedIcon,
